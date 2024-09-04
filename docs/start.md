@@ -26,7 +26,7 @@ roll 在原版使用很少，是“滚转角”，绕着 y 轴旋转；
 
 - **float partialTick**
 
-距离上一渲染帧的 tick 数，例：假设运行时稳定为 60fps，每帧 16.6ms，此时获取 partialTick 为 16.6ms / 20ms = 0.33tick。
+距离上一渲染帧的 tick 数，例：假设运行时稳定为 60fps，每帧 16.6ms，此时获取 partialTick 为 16.6ms / 50ms = 0.33tick。
 
 此值常用于插值，但注意此值可能大于 1；
 
