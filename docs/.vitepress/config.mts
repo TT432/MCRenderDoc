@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "The Key of The Minecraft Render",
   description: "A tutorial of Minecraft Render",
+  base: '/MCRenderDoc/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
