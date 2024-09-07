@@ -13,6 +13,14 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/TT432' }
+    ],
+    sidebar: [
+      {
+          items:[
+            {text: "Start", link: "/start"},
+            {text: "Generated Model", link: "/generated_model"}
+          ]
+      }
     ]
   },
   locales: {
